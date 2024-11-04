@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <title>MSC Cruisers</title>
+</head>
+<body>
+    <nav class="NavContainer">
+        <div class="NavLogo">
+            <img src="./assets/imgs/logo.png"/>
+        </div>
+        <div class="NavContent">
+            <div class="NavContentHeader">
+                <span>BRASIL 011 - 3878-8135</span>
+                <hr />
+            </div>
+            <div class="NavContentItems">
+                <span class="Selected">ENCONTRE SEU CRUZEIRO</span>
+                <span>OFERTAS</span>
+                <span>NOSSOS NAVIOS</span>
+                <span>DESTINOS</span>
+                <span>GERENCIAR</span>
+                <span>MEU CRUZEIRO</span>
+                <span >LOGIN</span>
+            </div>
+        </div>
+    </nav>
+    <div class="SectionBuy">
+        <div class="SectionBuyInfo">
+            <span class="SectionBuyInfoDesc">MENU DE PROMOÇÕES</span>
+            <span>AMÉRICA DO SUL</span>
+            <button onclick="window.location.href='https://www.msccruzeiros.com.br/ofertas/cruzeiros-2024-2025-america-do-sul';">COMPRE AGORA</button>
+        </div>
+
+    </div>
+    <div class="SectionReserve">
+        <div class="SectionReserveCard">
+        <div class="SectionReserveCardHeader">
+            <span>Reserva Agora</span>
+        </div>
+        <div class="SectionReserveCardRow">
+            <div class="SectionReserveCardCel">
+                <span>Destino</span>
+                <select name="destinoSelec">
+                    <option selected  disabled>Selecione ...</option>
+                </select>
+            </div>
+            <div class="SectionReserveCardCel">
+                <span>Ponto do Embarque</span>
+                <select name="pontoEmbarqueSelec">
+                    <option selected  disabled>Selecione ...</option>
+                </select>
+            </div>
+            <div class="SectionReserveCardCel">
+                <span>Data de Embarque</span>
+                <input type="date" />
+            </div>
+        </div>
+        <div class="SectionReserveCardRow">
+            <div class="SectionReserveCardCel">
+                <span>Passageiros</span>
+                <select name="passageirosSelec">
+                    <option value="2" selected>2 passageiros</option>
+                    <option value="1">1 passageiro</option>
+                    <option value="3">3 passageiros</option>
+                    <option value="4">4 passageiros</option>
+                   </select>
+            </div>
+            <div class="SectionReserveCardCel">
+            </div>
+            <div class="SectionReserveCardCel">
+                <span>&nbsp;</span>
+                <button>Buscar</button>
+            </div>
+        </div>
+        </div>
+        <div style="background-color: #FFFFFF; width: 100%;">&nbsp;ESPAÇO</div>
+        <div class="SectionReserveHighlights">
+            <div class="SectionReserveHighlightsCard">
+                <span>NOSSOS DESTAQUES</span>
+                <div class="SectionReserveHighlightsCardRow">
+                    <div class="Highlight">
+                        <img src="./assets/imgs/card-1.jpg"/>
+                        <div class="HighlightDesc">
+                            <p class="HighlightTitle">MSC</p>
+                            <p class="HighlightTitle">Grand Voyages</p>
+                            <p class="HighlightTinyText">A partir de*</p>
+                            <p class="HighlightPrice">R$ 7.500,00/pessoa</p>
+                            <p class="HighlightTinyDesc">MSC Seaview</p>
+                            <p class="HighlightTinyDesc">Saindo de: Barcelona</p>
+                            <p class="HighlightTinyDesc">Porto de desembarque: Rio de Janeiro</p>
+                        </div>
+                    </div>
+                    <div class="Highlight">
+                        <img src="./assets/imgs/card-2.jpg"/>
+                        <div class="HighlightDesc">
+                            <p class="HighlightTitle">MSC</p>
+                            <p class="HighlightTitle">Dubai, Abu Dhabi & Qatar</p>
+                            <p class="HighlightTinyText">A partir de*</p>
+                            <p class="HighlightPrice">R$ 9.500,00/pessoa</p>
+                            <p class="HighlightTinyDesc">MSC Euribia</p>
+                            <p class="HighlightTinyDesc">Saindo de: Dubai</p>
+                            <p class="HighlightTinyDesc">Porto de desembarque: Dubai</p>
+                        </div>                    
+                    </div>
+                    <div class="Highlight">
+                        <img src="./assets/imgs/card-3.jpg"/>
+                        <div class="HighlightDesc">
+                            <p class="HighlightTitle">MSC</p>
+                            <p class="HighlightTitle">CARIBE SEM VISTO</p>
+                            <p class="HighlightTinyText">A partir de*</p>
+                            <p class="HighlightPrice">R$ 5.500,00/pessoa</p>
+                            <p class="HighlightTinyDesc">Partindo de</p>
+                            <p class="HighlightTinyDesc">Miami, FlóridaLabadee, Haiti</p>
+                            <p class="HighlightTinyDesc">A bordo Independence of the Seas</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="SectionShips">
+            <div class="SectionShipTitle">
+                <span>NOSSOS NAVIOS</span>
+            </div>
+            <div class="SectionShipRow">
+                <div class="ShipView">
+                    <img src="./assets/imgs/ships/ship-armonia.png">
+                    <span>MSC ARMONIA</span>
+                </div>
+                <div class="ShipView">
+                    <img src="./assets/imgs/ships/ship-bellisima.png">
+                    <span>MSC BELLISIMA</span>
+                </div>
+            </div>
+            <div class="SectionShipRow">
+                <div class="ShipView">
+                    <img src="./assets/imgs/ships/ship-euribia.png">
+                    <span>MSC EURIBIA</span>
+                </div>
+                <div class="ShipView">
+                    <img src="./assets/imgs/ships/ship-meraviglia.png">
+                    <span>MSC MERAVIGLIA</span>
+                </div>            </div>
+            <div class="SectionShipRow">
+                <div class="ShipView">
+                    <img src="./assets/imgs/ships/ship-opera.png">
+                    <span>MSC OPERA</span>
+                </div>
+                <div class="ShipView">
+                    <img src="./assets/imgs/ships/ship-preziosa.png">
+                    <span>MSC PREZIOSA</span>
+                </div>
+            </div>
+        </div>
+        <div class="Footer">
+            © 2024 MSC Cruises S.A. Todos os direitos reservados.
+        </div>
+    </div>
+</body>
+</html>

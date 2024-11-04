@@ -1,0 +1,472 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*,body{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins",sans-serif;
+    font-weight: 200;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.NavContainer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    padding: 5px;
+    min-height: 60px;
+    color: #FFFFFF;
+    background-color: #1A1C39;
+}
+
+.NavLogo{
+    height: 100%;
+    width: 100px;
+    background-color: #1A1C39;
+}
+
+.NavContainer img{
+    background-color: #1A1C39;
+    width: 95px;
+}
+
+.NavContent{
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    height: 100%;
+    width: 100%;
+    color: #FFFFFF;
+}
+
+.NavContentHeader{
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    width: 100%;
+    font-size: 10px;
+    text-align: end;
+}
+
+.NavContentHeader hr{
+    width: 100%;
+    height: 0.6px;
+    border: 0px;
+    background-color: #ffffff5d;
+}
+
+.NavContentItems{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    height: 100%;
+    width: 100%;
+    padding-left: 5px;
+    gap: 15px;
+}
+
+.NavContentItems span{
+    text-align: center;
+    text-wrap: nowrap;
+    font-size: 10px;
+}
+
+.NavContentItems span:hover{
+    text-align: center;
+    text-wrap: nowrap;
+    font-size: 10px;
+    cursor: pointer;
+
+    padding-bottom: 3px;
+    border-bottom: 2px solid #FF6900;
+}
+
+.Selected{
+    padding-bottom: 3px;
+    border-bottom: 2px solid #FF6900;
+}
+
+.SectionBuy{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: start;
+    height: 300px;
+    width: 100%;
+
+    background-image: url("../assets/imgs/background-hd.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.SectionBuyInfo{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-right: 35px;
+    font-size: 38px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+
+.SectionBuyInfoDesc{
+    font-size: 24px;
+}
+
+.SectionBuyInfo button{
+    border: 0;
+    border-radius: 5px;
+    padding: 7px;
+    width: 125px;
+    margin-top: 7px;
+    font-size: 10px;
+    font-weight: bold;
+    color: #FFFFFF;
+    cursor: pointer;
+    background-color: #FF6900;
+}
+
+.SectionReserve{
+    position: absolute;
+    top: 250px;
+    left: 0;
+    width: 100%;
+    height: auto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+}
+
+.SectionReserveCard{
+    width: 70%;
+    height: 200px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 25px;
+    align-items: start;
+    border-radius: 5px 5px 0px 0px;
+    box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.346),
+                1px 1px 8px 1px rgba(0, 0, 0, 0.346),
+                1px 1px 8px 1px rgba(0, 0, 0, 0.346),
+                0px 0px 0px 0px rgba(0, 0, 0, 0.346);
+}
+
+
+.SectionReserveCardHeader{
+    height: 100px;
+    width: 100%;
+    margin-bottom: 1px;
+    display: flex;
+    align-items:end;
+
+    border-bottom: 1px solid #B9B9B9;
+}
+
+.SectionReserveCardHeader span{
+    color: #555555;
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.SectionReserveCardHeader hr{
+    width: 100%;
+    height: 2px;
+    border: 0px;
+    background-color: #ffffff5d;
+}
+
+.SectionReserveCardRow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+
+    gap: 10px;
+    padding: 10px;
+
+
+    height: 100px;
+    width: 100%;
+    margin-bottom: 1px;
+    
+}
+
+.SectionReserveCardCel{
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    font-size: 12px;
+
+    color: #1A1C39;
+}
+
+.SectionReserveCardCel span{
+    color: #555555;
+    font-weight: 400;
+    margin-left: 2px;
+}
+
+.SectionReserveCardCel select{
+    width: 100%;
+
+    color: #555555;
+    font-weight: 400;
+        background-color: #FAFAFA;
+    border: 0.6px solid #5555557a;
+    border-radius: 4px;
+
+    padding: 5px;
+    font-size: 11px;
+}
+
+
+.SectionReserveCardCel input{
+    width: 100%;
+
+    color: #1E1E1E;
+    border: 0.6px solid #5555557a;
+    border-radius: 4px;
+
+    padding: 5px;
+    font-size: 11px;
+}
+
+.SectionReserveCardCel button{
+    width: 100%;
+
+    color: #FAFAFA;
+    background-color: #1A1C39;
+    border: 0.6px solid #5555557a;
+    border-radius: 4px;
+
+    padding: 5px;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.SectionReserveHighlights{
+    height: 440px;
+    width: 100%;
+
+    color: black;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.SectionReserveHighlightsCard{
+    height: 100%;
+    width: 70%;
+    padding: 10px;
+}
+
+.SectionReserveHighlightsCard span{
+    font-size: 20px;
+    color: #1A1C39;
+    font-weight: bold;
+}
+
+.SectionReserveHighlightsCardRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    width: 100%;
+    height: 370px;
+    gap: 5px;
+}
+
+
+.Highlight{
+    width: 100%;
+    height: 100%;
+
+    border-radius: 12px;
+
+    box-shadow: 0.5px 0.5px 2px 0.5px #5555559f;
+
+}
+
+.HighlightDesc{
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+
+.Highlight img{
+    width: 100%;
+    height: 200px;
+
+    border-radius: 12px 12px 0px 0px;
+}
+
+
+.HighlightTitle{
+    color: #161515;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.HighlightPrice{
+    color: #161515;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.HighlightTinyText{
+    color: #161515;
+    font-size: 9px;
+    font-weight: 400;
+    margin-top: 7px;
+}
+
+.HighlightTinyDesc{
+    color: #161515;
+    font-size: 9px;
+    font-weight: 400;
+    margin-top: 2px;
+}
+
+.SectionShips{
+    width: 100%;
+    height: 425px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+    gap: 5px;
+
+    background-image: url("../assets/imgs/msc.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    background-color: red;
+}
+
+.SectionShipTitle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    
+    padding: 10px;
+
+    height: 10%;
+    width: 70%;
+}
+
+.SectionShipTitle span{
+    font-size: 20px;
+    color: #FAFAFA;
+    font-weight: bold;
+}
+
+
+.SectionShipRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: start;
+
+    padding: 10px;
+    gap: 5px;
+
+    height: 125px;
+    width: 70%;
+}
+
+.ShipView{
+    height: 100%;
+    width: 50%;
+
+    border-radius: 10px 10px 0px 0px;
+    background-color: #fafafa9a;
+
+    box-shadow: 2px 2px 5px #1615155b;
+}
+
+.ShipView img{
+    height: 70px;
+    width: 100%;
+
+    border-radius: 10px 10px 0px 0px;
+}
+
+.ShipView span{
+    color: #1E1E1E;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+
+.Footer{
+    width: 100%;
+    height: 50px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 12px;
+    font-weight: 400;
+
+    background-color: #1A1C39;
+}
+
+
+::-webkit-scrollbar {
+    width: 12px; 
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: black;
+    border-radius: 10px; 
+    border: 3px solid #1E1E1E; 
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #1E1E1E; 
+    border-radius: 10px; 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #555; 
+  }
+
+
+* {
+    scrollbar-width: thin; 
+    scrollbar-color: #1E1E1E black; 
+  }
+  
